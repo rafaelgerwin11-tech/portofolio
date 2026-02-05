@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#5b6eee" />
+      <stop offset="100%" stop-color="#2f59d1" />
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="24" fill="none" />
+  <g transform="translate(12,12)">
+    <!-- hexagon-like background -->
+    <path d="M60 0 L180 0 L210 60 L180 120 L60 120 L30 60 Z" fill="url(#g)"/>
+    <!-- subtle diagonal overlay -->
+    <path d="M60 0 L180 0 L210 60 L180 120 L60 120 L30 60 Z" fill="rgba(0,0,0,0.08)"/>
+    <!-- big C letter -->
+    <path d="M120 30c-32 0-58 26-58 58s26 58 58 58c11 0 21-3 30-9l-9-15c-6 4-13 6-21 6-20 0-36-16-36-36s16-36 36-36c8 0 15 2 21 6l9-15c-9-6-19-9-30-9z" fill="#ffffff"/>
+  </g>
+</svg>
